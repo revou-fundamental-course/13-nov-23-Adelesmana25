@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ade Travel Agen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navigation">
+        <nav class="cNavigation">
+            <div class="logo-web">
+                <div class="first-logo">Ade</div>
+                <div class="last-logo">Travel</div>
+            </div>
+            <div class="navigation-bar">
+                <li class="li-navbar"><a href="">Home</a></li>
+                <li class="li-navbar"><a href="">Our Package</a></li>
+                <li class="li-navbar"><a href="">Call Us</a></li>
+            </div>
+        </nav>
+        <nav class="title-header">
+            <h1 class="th-one">Your best travel agen</h1>
+            <h3 class="th-two">Your happiness is our happiness</h3>
+        </nav>
+    </header>
+
+    <main class="main-section">
+        <section class="review">
+            <img src="assets/images-1.webp">
+            <div class="review-note">"liburan menyenangkan bersama Ade Trevel Agen."</div>
+            <div class="img-profile">
+                <img src="assets/logo-profile.png">
+                <div class="review-consumen">
+                    <div class="name-cons"><b>Florence Hughes</b></div>
+                    <div class="job-cons"><i>Ibu Rumah Tangga, 28</i></div>
+                </div>
+            </div>
+        </section>
+
+        <form name="form-input" onsubmit="return validateForm()">
+            <h3>Contact US</h3>
+            <p>Seles akan menghubungi anda 1x24jam setelah data Kami terima.</p>
+            <div class="box">
+                <label>Your Name :</label>
+                <input name="name" id="name" type="text" placeholder="First and last name">
+                <div class="error" id="nameErr"></div>
+            </div>
+
+            <div class="box">
+                <label>Email address :</label>
+                <input name="email" id="email" type="text" placeholder="Example@gmail.com">
+                <div class="error" id="eamailErr"></div>
+            </div>
+
+            <div class="box">
+                <label for="destiny">What are You interested in?</label>
+                <select required id="destiny" name="destiny-option">
+                    <option>Select Option</option>
+                    <option>Raja Ampat</option>
+                    <option>Bali</option>
+                    <option>Taman National Bromo</option>
+                    <option>Wakatobi</option>
+                </select>
+                <div class="error" id="destinyErr"></div>
+            </div>
+
+            <div class="box-submit">
+                <input type="submit" class="primary-button" value="SEND">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h3>1. Booking disini minimal untuk 2 orang discount hingga 5%</h3>
+        <h3>2. Memilih minimal 2 destination discount hingga 10% </h3>
+        <h3>3. Free Souvenir dari Kami</h3>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigatioin {
+    display: flex;
+}
+
+.cNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid gray;
+}
+
+.logo-web {
+    display: flex;
+    font-size: 30px;
+}
+
+.first-logo {
+    font-weight: 300;
+}
+
+.last-logo {
+    color: crimson;
+    font-weight: 800;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation-bar li {
+    float: inline-start;
+    text-align: center;
+    padding: 5px;
+    list-style-type: none;
+    width: 85px;
+    border: 1px solid  black;
+}
+
+.navigation-bar li a {
+    text-decoration: none;
+}
+
+.title-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.th-one {
+    font-size: 50px;
+}
+
+.th-two {
+    font-size: 25px;
+    color: rgba(122, 129, 136, 0.644);
+}
+
+.main-section {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 20px
+}
+
+.review {
+    flex-basis: 70%;
+    flex-grow: 0;
+}
+
+.review-note {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px; 
+    font-style: italic;
+    color: rgba(190, 202, 202, 0.699);
+}
+
+.review img {
+    width: 100%;
+    max-height: 65%;
+    border-radius: 5px;
+}
+
+.img-profile {
+    display: flex;
+    width: 100%;
+    height: 115px;
+    padding-left: 70px;
+    align-items: center;
+    gap: 30px
+}
+
+.img-profile img {
+    background-color: rgba(128, 128, 128, 0.833);
+    border-radius: 50%;
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.review-consumen {
+    display: flex;
+    flex-direction: column;
+    gap: 0
+}
+
+.name-cons {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.job-cons {
+    color: rgba(128, 128, 128, 0.637);
+    padding-top: 5px;
+}
+
+form {
+    width: 300px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(135, 132, 137, 0.459);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label i {
+    color: #999;
+    font-size: 80%;
+}
+
+input,select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.box {
+    padding-bottom: 10px;
+}
+
+.box-submit input {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #999;
+}
+
+footer {
+    color: rgba(128, 128, 128, 0.363);
+    padding-left: 50px;
+}
